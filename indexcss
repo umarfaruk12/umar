@@ -1,0 +1,6 @@
+input{
+    padding-right: 30.5;
+    border-width: 30;
+    breath: 25px;
+    
+}

@@ -1,0 +1,27 @@
+// methodsb most used with string of characters
+// How to get the length of a string
+let str = "Hola soy un string";
+console.log(str.length)
+
+// get parts obtained from characters
+// slice() substring() substrings()
+let slice_str = str.slice(5, 10)
+console.log(slice_str)
+
+let substr_str = str.substr(5, 10)
+console.log(substr_str)
+
+// repalce the content with one serving of test material
+let cadena = "Hole mi nomber es gorka"
+console.log(cadena)
+
+// when using string only repalce the frist instance
+console.log(cadena.replace('gorka,Miguel'))
+
+let texto_largo = "Tito is not a mono cualquier"
+
+// when using string only replace the frist instance
+console.log(texto_largo.replace(/los/g, 'cinco'))
+
+//when using the regular expression /g (global), replace all instances
+console.log(texto_largo.replace(/los/g, 'cinco'))
